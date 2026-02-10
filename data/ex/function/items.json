@@ -1,0 +1,38 @@
+{
+    "values": [
+  
+      "minecraft:stick",
+      "minecraft:string",
+      "minecraft:feather",
+      "minecraft:leather",
+      "minecraft:bone",
+      "minecraft:clay_ball",
+      "minecraft:flint",
+      "minecraft:arrow",
+  
+      "minecraft:iron_ingot",
+      "minecraft:gold_ingot",
+      "minecraft:copper_ingot",
+  
+      "minecraft:bucket",
+      "minecraft:water_bucket",
+      "minecraft:lava_bucket",
+      "minecraft:milk_bucket",
+      "minecraft:cod_bucket",
+      "minecraft:salmon_bucket",
+      "minecraft:pufferfish_bucket",
+      "minecraft:tropical_fish_bucket",
+      "minecraft:powder_snow_bucket",
+  
+      "minecraft:ghast_tear",
+      "minecraft:blaze_powder",
+      "minecraft:spider_eye",
+      "minecraft:gunpowder",
+      "minecraft:slime_ball",
+      "minecraft:glowstone_dust",
+      "minecraft:prismarine_crystals",
+      "minecraft:prismarine_shard",
+      "minecraft:nether_wart"
+    ]
+  }
+  
