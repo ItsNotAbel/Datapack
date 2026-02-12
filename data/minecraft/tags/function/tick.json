@@ -1,5 +1,6 @@
 {
     "values": [
-        "ex:tick"
+        "ex:tick",
+        "ex:death_spectator"
     ]
 }

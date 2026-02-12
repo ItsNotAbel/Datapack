@@ -1,8 +1,20 @@
-worldborder set 500
+worldborder set 1000
 worldborder center 0.0 0.0
-gamerule doTileDrops false
-gamerule doEntityDrops false
-gamerule mobGriefing false
-difficulty easy
-# start the repeating cycle 1800 ticks after load
-schedule function ex:give_random 1800t
+
+# Set Nether worldborder to match Overworld (1:8 scale)
+execute in minecraft:the_nether run worldborder set 1000
+execute in minecraft:the_nether run worldborder center 0.0 0.0
+
+schedule function ex:ric 1800t
+execute positioned 0.0 0.0 0.0 run setworldspawn ~ ~ ~
+
+# Disable drops
+gamerule entity_drops false
+gamerule block_drops false
+gamerule mob_drops false
+gamerule tnt_explodes false
+gamerule natural_health_regeneration false
+
+
+
+

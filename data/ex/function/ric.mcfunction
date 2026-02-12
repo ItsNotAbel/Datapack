@@ -1,4 +1,11 @@
-# Give each player an independent random item from the loot table, then reschedule
-execute as @a run loot give @s loot ex:random_items
-# Reschedule this function to run again in 1800 ticks (90s = 1.5 minutes)
-schedule function ex:give_random 1800t
+# Play the pickup sound
+playsound minecraft:entity.item.pickup master @a ~ ~ ~ 1 1
+
+# Schedule the next execution of this function
+schedule function ex:ric 90s
+
+# Spawn loot and assign ownership per player (uses helper to prevent overwrites)
+execute as @a at @s run function ex:spawn_loot
+
+
+
